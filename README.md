@@ -23,10 +23,10 @@ Installation by compilation on Linux
 1. Go to the plugins directory and run `git clone git://github.com/kongr45gpen/flagOnSpawn.git`
 2. Edit the Makefile.am and add a line for the flagOnSpawn folder, and do the same to ../configure.ac
 3. On the base bzflag source folder, run:
-
-    ./autogen.sh
-    ./configure --disable-client
-    make
-    sudo make install
-
+<pre>
+./autogen.sh
+./configure --disable-client
+make
+sudo make install
+</pre>
 4. Add `-loadplugin flagOnSpawn` to your server configuration file.
