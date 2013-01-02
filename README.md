@@ -14,6 +14,7 @@ Possible values:
 * Any flag name (e.g. `WG`): Gives the specified flag on spawn
 
 Note that if you want to set this variable on your config file, do so this way:
+
     -setforced _flagonspawn value
 
 Installation by compilation on Linux
@@ -22,6 +23,7 @@ Installation by compilation on Linux
 1. Go to the plugins directory and run `git clone git://github.com/kongr45gpen/flagOnSpawn.git`
 2. Edit the Makefile.am and add a line for the flagOnSpawn folder, and do the same to ../configure.ac
 3. On the base bzflag source folder, run:
+
     ./autogen.sh
     ./configure --disable-client
     make
