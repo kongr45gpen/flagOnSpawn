@@ -28,4 +28,4 @@ Installation by compilation on Linux
 make
 sudo make install
 </pre>
-4. Add `-loadplugin flagOnSpawn` to your server configuration file.
+4. Add `-loadplugin /path/to/plugin` to your server configuration file, where /path/to/plugin is the path to the generated flagOnSpawn.so file
