@@ -25,7 +25,7 @@ Installation by compilation on Linux
 3. On the base bzflag source folder, run:
 <pre>
 ./autogen.sh
-./configure --disable-client
+./configure.sh --disable-client
 make
 sudo make install
 </pre>
