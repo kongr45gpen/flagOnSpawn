@@ -29,7 +29,10 @@ flagOnSpawn_events flagOnSpawn_events;
 BZF_PLUGIN_CALL int bz_Load ( const char* /*commandLine*/ )
 {
   bz_debugMessage(4,"flagOnSpawn plugin loaded");
-      if (bz_setBZDBString ( "_flagonspawn", "AA", 0 , 0 ))
+  if (bz_BZDBItemExists("flagonspawn")) {
+  bz_debugMessage(4,"flagOnSpawn plugin already set");
+  }
+     else if (bz_setBZDBString ( "_flagonspawn", "AA", 0 , 0 ))
  ﻿  {  
 ﻿    bz_debugMessage(4,"flagOnSpawn plugin set");
 ﻿  }
