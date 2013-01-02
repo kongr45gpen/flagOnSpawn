@@ -28,4 +28,5 @@ Installation by compilation on Linux
     ./configure --disable-client
     make
     sudo make install
+
 4. Add `-loadplugin flagOnSpawn` to your server configuration file.
