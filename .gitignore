@@ -3,11 +3,14 @@
 *.lo
 *.o
 
-# Compiled Dynamic libraries
+# Compiled Dynamic ibraries
 *.so
-*.dylib
+*.dynlib
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+
+.deps
+.libs
