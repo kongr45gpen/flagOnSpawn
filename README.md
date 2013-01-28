@@ -3,6 +3,13 @@ flagOnSpawn
 
 BZFlag plugin that gives players a flag on spawn depending on a variable
 
+Requirements (pay attention!)
+-----------------------------
+
+This plugin requires your BZFlag version to be newer than 2.4.2 (2.4.3 or higher).
+If you have another version, check the 'Tags' tab for the appropriate one.
+New features will be only added in the latest BZFlag version.
+
 Usage
 -----
 
